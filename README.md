@@ -1,45 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# dplyr <a href='https://dplyr.tidyverse.org'><img src='man/figures/logo.png' align="right" height="139" /></a>
-
-<!-- badges: start -->
-
-[![CRAN
-status](https://www.r-pkg.org/badges/version/dplyr)](https://cran.r-project.org/package=dplyr)
-[![R build
-status](https://github.com/tidyverse/dplyr/workflows/R-CMD-check/badge.svg)](https://github.com/tidyverse/dplyr/actions?workflow=R-CMD-check)
-[![Codecov test
-coverage](https://codecov.io/gh/tidyverse/dplyr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidyverse/dplyr?branch=main)
-<!-- badges: end -->
-
-## Overview
-
-dplyr is a grammar of data manipulation, providing a consistent set of
-verbs that help you solve the most common data manipulation challenges:
-
-  - `mutate()` adds new variables that are functions of existing
-    variables
-  - `select()` picks variables based on their names.
-  - `filter()` picks cases based on their values.
-  - `summarise()` reduces multiple values down to a single summary.
-  - `arrange()` changes the ordering of the rows.
-
-These all combine naturally with `group_by()` which allows you to
-perform any operation “by group”. You can learn more about them in
-`vignette("dplyr")`. As well as these single-table verbs, dplyr also
-provides a variety of two-table verbs, which you can learn about in
-`vignette("two-table")`.
-
-If you are new to dplyr, the best place to start is the [data
-transformation chapter](https://r4ds.had.co.nz/transform.html) in R for
-data science.
-
-## Backends
-
-In addition to data frames/tibbles, dplyr makes working with other
-computational backends accessible and efficient. Below is a list of
-alternative backends:
+Example
 
   - [dtplyr](https://dtplyr.tidyverse.org/): for large, in-memory
     datasets. Translates your dplyr code to high performance
